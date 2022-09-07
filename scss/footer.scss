@@ -1,0 +1,38 @@
+$color: (
+    facebook: #ffff,
+    instagram: rgb(247, 103, 146),
+
+);
+
+@mixin tamanos($ancho, $alto, ) {
+    width: $ancho;
+    height: $alto;
+}
+
+.fa-facebook {
+    color: map-get($map: $color, $key: facebook);
+    @include tamanos(38px, 38px);
+    line-height: 38px;
+    margin-top: 1px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #3b5998;
+   
+}
+
+
+
+
+
+.fa-instagram {
+    color: map-get($map: $color, $key: instagram);
+    @include tamanos(38px, 38px);
+    @extend .fa-facebook;
+    background-color: rgb(241, 157, 157);
+}
+
+
+.social-icons a:hover {
+    color: #fff;
+    background-color: #585858
+}

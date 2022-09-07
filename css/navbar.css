@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.collapse li {
+  font-size: 20px;
+  margin-left: -10px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: double; }
+
+.collapse .nav-item1 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.collapse li:hover {
+  background-color: #a3d2f1; }
+
+.logo img {
+  width: 50px;
+  height: 50px; }

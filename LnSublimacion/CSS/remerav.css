@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 560px;
+    height: 560px;
+    border-radius: 5px;
+}
+
+h1 {
+    width: 200px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(48, 48, 184);
+    height: auto;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+}
+
+.inicio {
+    padding-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.descripcion a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(72, 119, 190);
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s;
+
+}
+
+
+
+.descripcion {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.borde {
+    margin-top: 10px;
+    width: 560px;
+    height: 780px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.descripcion p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+@media (min-width:1024px) {
+
+
+    .hero img {
+        width: 1300px;
+        padding-top: 30px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+    }
+
+
+}
+
+@media (max-width: 575.98px) {
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+    }
+
+   
+    img {
+        width: 400px;
+        height: 100%;
+    }
+
+
+
+   
+
+
+}
+
+@media (maxm-width: 400.10px) {
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+    }
+
+    img {
+        flex: auto;
+    }
+
+  
+
+}
+
+body {
+    background-color: rgb(183, 238, 248);
+}

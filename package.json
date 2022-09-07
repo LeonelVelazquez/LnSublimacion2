@@ -1,0 +1,24 @@
+{
+  "name": "leonel-velazquez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss":"node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonelVelazquez/LnSublimacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonelVelazquez/LnSublimacion/issues"
+  },
+  "homepage": "https://github.com/LeonelVelazquez/LnSublimacion#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

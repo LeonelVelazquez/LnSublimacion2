@@ -86,8 +86,20 @@ body {
     .container1{
 
         width: 400px;
+        
        
      }
+
+     .container-carousel {
+        padding: 20px;
+        
+        width: 400px;
+        height: 400px;
+        margin-left: auto;
+        margin: auto;
+    }
+    
+
     .hero {
         padding-top: 0px;
         width: 500px;

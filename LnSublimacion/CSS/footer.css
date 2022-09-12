@@ -157,6 +157,10 @@
 .fa-instagram{
   color: #ff00b3;
 }
+.fa-whatsapp{
+  color: rgb(24, 216, 24);
+ 
+}
 
 @media (max-width:767px) {
   .social-icons li.title {
